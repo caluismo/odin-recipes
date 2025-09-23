@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Odin Recipes</title>
+
+        <link rel="stylesheet" href="css/home.css">
     </head>
+
     <body>
-        <h1>Odin Recipes</h1>
+        <header>
+            <h1>Odin Recipes</h1>
+        </header>
+        
         <hr>
 
-        <ul>
-            <li><a href="recipes/oxtail.html" rel="noreferrer">Oxtail Stew</a></li>
-            <li><a href="recipes/shrimp.html" rel="noreferrer">Garlic Butter Shrimp</a></li>
-            <li><a href="recipes/taco.html" rel="noreferrer">Birria Tacos</a></li>
-        </ul>
+        <main>
+            <ul class="list-items">
+                <li class="oxtail">
+                    <a href="recipes/oxtail.html" rel="noreferrer">
+                        <img src="images/oxtail.jpg" alt="Oxtail Stew" width="150">
+                    </a>
+                    <p><a href="recipes/oxtail.html">Oxtail Stew Recipe</a></p>
+                </li>
+
+                <li class="shrimp">
+                    <a href="recipes/shrimp.html" rel="noreferrer">
+                        <img src="images/shrimp.jpg" alt="Shrimp" width="150">
+                    </a>
+                    <p><a href="recipes/shrimp.html">Garlic Butter Shrimp Recipe</a></p>
+                </li>
+
+                <li class="taco">
+                    <a href="recipes/taco.html" rel="noreferrer">
+                        <img src="images/tacos.jpg" alt="Tacos" width="150">
+                    </a>
+                    <p><a href="recipes/taco.html">Birria Tacos Recipe</a></p>
+                </li>
+            </ul>
+        </main>
+        <hr>
+        <footer> </footer>
 
     </body>
 </html>
